@@ -86,4 +86,5 @@ export { InterestManager } from "./InterestManager.js";
 export { SearchAgent } from "./SearchAgent.js";
 export { MemoryBridge } from "./MemoryBridge.js";
 export { ReportGenerator } from "./ReportGenerator.js";
+export { getCuriosityTools, executeTool } from "./mcp/index.js";
 export * from "./types.js";
