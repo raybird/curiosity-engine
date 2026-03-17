@@ -2,6 +2,7 @@ import { InterestManager } from "./InterestManager.js";
 import { SearchAgent } from "./SearchAgent.js";
 import { MemoryBridge } from "./MemoryBridge.js";
 import { ReportGenerator } from "./ReportGenerator.js";
+import { MemoriaAdapter } from "./MemoriaAdapter.js";
 import type { CuriosityConfig, InterestOptions } from "./types.js";
 
 export class CuriosityEngine {
@@ -9,6 +10,7 @@ export class CuriosityEngine {
   private searchAgent: SearchAgent;
   private memoryBridge: MemoryBridge;
   private reportGenerator: ReportGenerator;
+  private memoriaAdapter: MemoriaAdapter;
   private config: CuriosityConfig;
 
   constructor(config: CuriosityConfig = {}) {
@@ -17,6 +19,7 @@ export class CuriosityEngine {
     this.searchAgent = new SearchAgent(config.searchApiKey);
     this.memoryBridge = new MemoryBridge();
     this.reportGenerator = new ReportGenerator(this.memoryBridge);
+    this.memoriaAdapter = new MemoriaAdapter();
   }
 
   addInterest(keyword: string, options?: InterestOptions) {
@@ -36,6 +39,8 @@ export class CuriosityEngine {
 
     if (this.config.memory) {
       this.memoryBridge.save(result);
+      // 同步到 Memoria 中樞
+      await this.memoriaAdapter.syncToDaily(result);
     }
 
     this.interestManager.updateLastSearched(keyword);
@@ -55,6 +60,8 @@ export class CuriosityEngine {
     if (this.config.memory) {
       for (const result of results) {
         this.memoryBridge.save(result);
+        // 同步到 Memoria 中樞
+        await this.memoriaAdapter.syncToDaily(result);
       }
     }
 

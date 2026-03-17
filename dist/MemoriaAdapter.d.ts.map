@@ -1,0 +1,1 @@
+{"version":3,"file":"MemoriaAdapter.d.ts","sourceRoot":"","sources":["../src/MemoriaAdapter.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,iBAAiB,EAAE,MAAM,YAAY,CAAC;AAEpD;;;GAGG;AACH,qBAAa,cAAc;IACzB,OAAO,CAAC,WAAW,CAAS;;IAO5B;;OAEG;IACG,WAAW,CAAC,KAAK,EAAE,iBAAiB,GAAG,OAAO,CAAC,MAAM,GAAG,IAAI,CAAC;IAmBnE;;OAEG;IACH,OAAO,CAAC,gBAAgB;CAyBzB"}
