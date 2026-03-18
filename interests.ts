@@ -30,6 +30,18 @@ export const INTEREST_TOPICS = [
     added_at: "2026-03-17"
   },
   {
+    category: "Tech",
+    topic: "MCP Sampling & Bidirectional Self-Correction",
+    priority: "High",
+    added_at: "2026-03-18"
+  },
+  {
+    category: "Tech",
+    topic: "LangGraph State-Machine Orchestration for WebDota",
+    priority: "High",
+    added_at: "2026-03-18"
+  },
+  {
     category: "Esoteric",
     topic: "Causal Intuition & Rhythmic Computation via I Ching & Zi Wei",
     priority: "Medium",
