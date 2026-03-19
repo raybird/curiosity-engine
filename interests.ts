@@ -42,6 +42,18 @@ export const INTEREST_TOPICS = [
     added_at: "2026-03-18"
   },
   {
+    category: "Crypto",
+    topic: "ERC-7518 DyCIST: Dynamic Compliant Interoperable Security Tokens",
+    priority: "Medium",
+    added_at: "2026-03-19"
+  },
+  {
+    category: "Tech",
+    topic: "LangGraph 'Referee' Agents for P2P Conflict Resolution",
+    priority: "High",
+    added_at: "2026-03-19"
+  },
+  {
     category: "Esoteric",
     topic: "Causal Intuition & Rhythmic Computation via I Ching & Zi Wei",
     priority: "Medium",
