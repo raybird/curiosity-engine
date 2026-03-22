@@ -1,15 +1,21 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Agent Skills Specification (agentskills.io) Implementation",
+    topic: "C2PA Rust SDK Integration: Paragraph Hashing for Markdown Sovereignty",
     priority: "High",
-    added_at: "2026-03-20"
+    added_at: "2026-03-22"
+  },
+  {
+    category: "Tech",
+    topic: "Elixir/OTP DynamicSupervisor for Autonomous Agent Remodeling",
+    priority: "High",
+    added_at: "2026-03-22"
   },
   {
     category: "Policy",
-    topic: "Digital Watermarking & C2PA Standards for AI Content Credentials",
+    topic: "SEC Innovation Exemption: RWA Tokenization Compliance Path",
     priority: "High",
-    added_at: "2026-03-20"
+    added_at: "2026-03-22"
   },
   {
     category: "Tech",
@@ -18,27 +24,9 @@ export const INTEREST_TOPICS = [
     added_at: "2026-03-20"
   },
   {
-    category: "Esoteric",
-    topic: "Rhythmic Computation: Applying I Ching Logic to AI Decision States",
-    priority: "Medium",
-    added_at: "2026-03-20"
-  },
-  {
     category: "Tech",
     topic: "MCP Sampling & Bidirectional Self-Correction",
     priority: "High",
     added_at: "2026-03-18"
-  },
-  {
-    category: "Crypto",
-    topic: "RWA & BTC Correlation in High Inflation Scenarios",
-    priority: "High",
-    added_at: "2026-03-17"
-  },
-  {
-    category: "Policy",
-    topic: "Frameworks for Industrial-Grade AI Autonomous Contracts",
-    priority: "High",
-    added_at: "2026-03-17"
   }
 ];
