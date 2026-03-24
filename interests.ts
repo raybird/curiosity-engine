@@ -1,14 +1,26 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Agentic OTP Patterns: Distributed Swarm Orchestration & Hot-swapping",
+    topic: "ERC-8183 Conditional Escrow: Automating TeleNexus Operational Settlement",
     priority: "High",
+    added_at: "2026-03-24"
+  },
+  {
+    category: "Tech",
+    topic: "Perceptual Hashing for Hardware Identity: NPU/GPU Sovereign Fingerprinting",
+    priority: "High",
+    added_at: "2026-03-24"
+  },
+  {
+    category: "Tech",
+    topic: "Agentic OTP Patterns: Distributed Swarm Orchestration & Hot-swapping",
+    priority: "Medium",
     added_at: "2026-03-23"
   },
   {
     category: "Policy",
     topic: "JUMBF Metadata for RWA Provenance: Cross-chain C2PA Linkage",
-    priority: "High",
+    priority: "Medium",
     added_at: "2026-03-23"
   },
   {
@@ -24,21 +36,9 @@ export const INTEREST_TOPICS = [
     added_at: "2026-03-22"
   },
   {
-    category: "Policy",
-    topic: "SEC Innovation Exemption: RWA Tokenization Compliance Path",
-    priority: "Medium",
-    added_at: "2026-03-22"
-  },
-  {
     category: "Tech",
     topic: "LangGraph SQL-Based Checkpointing for Match Resilience",
     priority: "High",
     added_at: "2026-03-20"
-  },
-  {
-    category: "Tech",
-    topic: "MCP Sampling & Bidirectional Self-Correction",
-    priority: "High",
-    added_at: "2026-03-18"
   }
 ];
