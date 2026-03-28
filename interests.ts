@@ -1,5 +1,17 @@
 export const INTEREST_TOPICS = [
   {
+    category: "Legal",
+    topic: "Decentralized Prediction Markets as Regulatory Probes: Integrating Polymarket API",
+    priority: "High",
+    added_at: "2026-03-28"
+  },
+  {
+    category: "Tech",
+    topic: "WBA (Web Bot Auth): Implementing SHA-256 Intent Headers for opencli-rs",
+    priority: "High",
+    added_at: "2026-03-28"
+  },
+  {
     category: "Tech",
     topic: "Budget-Aware Inference Schedulers: Integrating MPP Sessions into TN Core",
     priority: "High",
@@ -13,32 +25,8 @@ export const INTEREST_TOPICS = [
   },
   {
     category: "Tech",
-    topic: "LockedApart WebGPU Implementation: Silicon-level Hardware Fingerprinting",
-    priority: "Medium",
-    added_at: "2026-03-25"
-  },
-  {
-    category: "Tech",
-    topic: "MPP Session Management: Automating Micro-payments for AI Agents",
-    priority: "Medium",
-    added_at: "2026-03-25"
-  },
-  {
-    category: "Tech",
-    topic: "ERC-8183 Conditional Escrow: Automating TeleNexus Operational Settlement",
-    priority: "Medium",
-    added_at: "2026-03-24"
-  },
-  {
-    category: "Tech",
-    topic: "Perceptual Hashing for Hardware Identity: NPU/GPU Sovereign Fingerprinting",
-    priority: "Medium",
-    added_at: "2026-03-24"
-  },
-  {
-    category: "Tech",
-    topic: "Agentic OTP Patterns: Distributed Swarm Orchestration & Hot-swapping",
-    priority: "Medium",
-    added_at: "2026-03-23"
+    topic: "Intent-Aware Crawling Protocols: Compliance Alignment with ai.txt",
+    priority: "Completed",
+    added_at: "2026-03-28"
   }
 ];
