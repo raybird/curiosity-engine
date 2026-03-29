@@ -1,15 +1,15 @@
 export const INTEREST_TOPICS = [
   {
-    category: "Legal",
-    topic: "Decentralized Prediction Markets as Regulatory Probes: Integrating Polymarket API",
-    priority: "High",
-    added_at: "2026-03-28"
+    category: "Tech",
+    topic: "WBA (Web Bot Auth): Prototyping RFC 9421 Signer in TeleNexus Core",
+    priority: "Critical",
+    added_at: "2026-03-29"
   },
   {
-    category: "Tech",
-    topic: "WBA (Web Bot Auth): Implementing SHA-256 Intent Headers for opencli-rs",
+    category: "Legal",
+    topic: "Polymarket RRP (Regulatory Risk Probe) Integration: Mapping Market Probabilities to System Risk",
     priority: "High",
-    added_at: "2026-03-28"
+    added_at: "2026-03-29"
   },
   {
     category: "Tech",
@@ -25,7 +25,7 @@ export const INTEREST_TOPICS = [
   },
   {
     category: "Tech",
-    topic: "Intent-Aware Crawling Protocols: Compliance Alignment with ai.txt",
+    topic: "Decentralized Prediction Markets as Regulatory Probes",
     priority: "Completed",
     added_at: "2026-03-28"
   }
