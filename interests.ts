@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Pine Script v6: Mastering Order Flow & Dynamic Strategy Architectures",
-    priority: "High",
+    topic: "Automated Strategy Scouting: Hunting & Implementing Pine Script v6 Gems",
+    priority: "Critical",
     added_at: "2026-03-31"
+  },
+  {
+    category: "Tech",
+    topic: "Pine Script v6: Mastering Order Flow & Dynamic Strategy Architectures",
+    priority: "Completed",
+    added_at: "2026-03-31",
+    completed_at: "2026-03-31"
   },
   {
     category: "Infra",
@@ -23,17 +30,5 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-03-30",
     completed_at: "2026-03-31"
-  },
-  {
-    category: "Tech",
-    topic: "WBA (Web Bot Auth): Prototyping RFC 9421 Signer",
-    priority: "Completed",
-    added_at: "2026-03-29"
-  },
-  {
-    category: "Tech",
-    topic: "Decentralized Prediction Markets as Regulatory Probes",
-    priority: "Completed",
-    added_at: "2026-03-28"
   }
 ];
