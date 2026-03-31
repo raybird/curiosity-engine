@@ -2,13 +2,14 @@ export const INTEREST_TOPICS = [
   {
     category: "Tech",
     topic: "WBA-Signer: Coding RFC 9421 Prototype with Ed25519",
-    priority: "Critical",
-    added_at: "2026-03-30"
+    priority: "Completed",
+    added_at: "2026-03-30",
+    completed_at: "2026-03-31"
   },
   {
     category: "Infra",
     topic: "Decentralized JWKS: Implementing IPFS Fallback for Sovereign Identity",
-    priority: "High",
+    priority: "Critical",
     added_at: "2026-03-30"
   },
   {
