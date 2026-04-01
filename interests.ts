@@ -15,8 +15,9 @@ export const INTEREST_TOPICS = [
   {
     category: "Infra",
     topic: "Decentralized JWKS: Implementing IPFS Fallback for Sovereign Identity",
-    priority: "Critical",
-    added_at: "2026-03-30"
+    priority: "Completed",
+    added_at: "2026-03-30",
+    completed_at: "2026-04-01"
   },
   {
     category: "Legal",
