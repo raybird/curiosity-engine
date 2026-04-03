@@ -1,9 +1,10 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Automated Strategy Scouting: Hunting & Implementing Pine Script v6 Gems",
-    priority: "Critical",
-    added_at: "2026-03-31"
+    topic: "Automated Strategy Scouting: AI-driven Evaluation & v5-to-v6 Refactoring",
+    priority: "Completed",
+    added_at: "2026-03-31",
+    completed_at: "2026-04-03"
   },
   {
     category: "Legal",
@@ -32,5 +33,11 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-03-30",
     completed_at: "2026-03-31"
+  },
+  {
+    category: "Tech",
+    topic: "Dynamic Risk-Free Rate: Integrating request.seed for Macro Modeling",
+    priority: "High",
+    added_at: "2026-04-03"
   }
 ];
