@@ -1,6 +1,19 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
+    topic: "Agentic Federated Learning: Privacy-preserving strategy optimization across Ghost Grid nodes",
+    priority: "High",
+    added_at: "2026-04-04"
+  },
+  {
+    category: "Tech",
+    topic: "Dynamic Risk-Free Rate: Integrating request.seed for Macro Modeling",
+    priority: "Completed",
+    added_at: "2026-04-03",
+    completed_at: "2026-04-04"
+  },
+  {
+    category: "Tech",
     topic: "Automated Strategy Scouting: AI-driven Evaluation & v5-to-v6 Refactoring",
     priority: "Completed",
     added_at: "2026-03-31",
@@ -26,18 +39,5 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-03-30",
     completed_at: "2026-04-01"
-  },
-  {
-    category: "Tech",
-    topic: "WBA-Signer: Coding RFC 9421 Prototype with Ed25519",
-    priority: "Completed",
-    added_at: "2026-03-30",
-    completed_at: "2026-03-31"
-  },
-  {
-    category: "Tech",
-    topic: "Dynamic Risk-Free Rate: Integrating request.seed for Macro Modeling",
-    priority: "High",
-    added_at: "2026-04-03"
   }
 ];
