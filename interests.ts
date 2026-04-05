@@ -2,8 +2,9 @@ export const INTEREST_TOPICS = [
   {
     category: "Tech",
     topic: "Agentic Federated Learning: Privacy-preserving strategy optimization across Ghost Grid nodes",
-    priority: "High",
-    added_at: "2026-04-04"
+    priority: "Completed",
+    added_at: "2026-04-04",
+    completed_at: "2026-04-05"
   },
   {
     category: "Tech",
@@ -39,5 +40,11 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-03-30",
     completed_at: "2026-04-01"
+  },
+  {
+    category: "Tech",
+    topic: "VLA Model Distillation: Extracting actionable logic from high-parameter Vision-Language-Action models",
+    priority: "High",
+    added_at: "2026-04-05"
   }
 ];
