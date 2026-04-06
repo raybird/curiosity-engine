@@ -1,6 +1,19 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
+    topic: "Causal Auditing of VLA Action Streams: Intercepting non-compliant physical actions at the causal layer",
+    priority: "High",
+    added_at: "2026-04-06"
+  },
+  {
+    category: "Tech",
+    topic: "VLA Model Distillation: Extracting actionable logic from high-parameter Vision-Language-Action models",
+    priority: "Completed",
+    added_at: "2026-04-05",
+    completed_at: "2026-04-06"
+  },
+  {
+    category: "Tech",
     topic: "Agentic Federated Learning: Privacy-preserving strategy optimization across Ghost Grid nodes",
     priority: "Completed",
     added_at: "2026-04-04",
@@ -40,11 +53,5 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-03-30",
     completed_at: "2026-04-01"
-  },
-  {
-    category: "Tech",
-    topic: "VLA Model Distillation: Extracting actionable logic from high-parameter Vision-Language-Action models",
-    priority: "High",
-    added_at: "2026-04-05"
   }
 ];
