@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Causal Auditing of VLA Action Streams: Intercepting non-compliant physical actions at the causal layer",
+    topic: "Causal Backtracking & Self-Healing: Guiding agents back to safe causal nodes after action interception",
     priority: "High",
-    added_at: "2026-04-06"
+    added_at: "2026-04-07"
+  },
+  {
+    category: "Tech",
+    topic: "Causal Auditing of VLA Action Streams: Intercepting non-compliant physical actions at the causal layer",
+    priority: "Completed",
+    added_at: "2026-04-06",
+    completed_at: "2026-04-07"
   },
   {
     category: "Tech",
