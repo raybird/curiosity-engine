@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Causal Backtracking & Self-Healing: Guiding agents back to safe causal nodes after action interception",
+    topic: "Causal Continuity Metrics: Quantifying original intent preservation after multiple backtracking cycles",
     priority: "High",
-    added_at: "2026-04-07"
+    added_at: "2026-04-08"
+  },
+  {
+    category: "Tech",
+    topic: "Causal Backtracking & Self-Healing: Guiding agents back to safe causal nodes after action interception",
+    priority: "Completed",
+    added_at: "2026-04-07",
+    completed_at: "2026-04-08"
   },
   {
     category: "Tech",
