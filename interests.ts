@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Causal Continuity Metrics: Quantifying original intent preservation after multiple backtracking cycles",
+    topic: "Autonomous Skill Synthesis: Automatically generating Skill YAML from successful execution trajectories",
     priority: "High",
-    added_at: "2026-04-08"
+    added_at: "2026-04-09"
+  },
+  {
+    category: "Tech",
+    topic: "Causal Continuity Metrics: Quantifying original intent preservation after multiple backtracking cycles",
+    priority: "Completed",
+    added_at: "2026-04-08",
+    completed_at: "2026-04-09"
   },
   {
     category: "Tech",
