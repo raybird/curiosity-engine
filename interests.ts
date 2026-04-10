@@ -1,9 +1,22 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Autonomous Skill Synthesis: Automatically generating Skill YAML from successful execution trajectories",
+    topic: "TrajectoryDistiller Implementation: Building the logic to convert .jsonl cognitive logs to Skill.md",
     priority: "High",
-    added_at: "2026-04-09"
+    added_at: "2026-04-10"
+  },
+  {
+    category: "Infra",
+    topic: "Skill Verification Sandbox: Isolated environment for automated testing of synthesized skills",
+    priority: "Med",
+    added_at: "2026-04-10"
+  },
+  {
+    category: "Tech",
+    topic: "Autonomous Skill Synthesis: Automatically generating Skill YAML from successful execution trajectories",
+    priority: "Completed",
+    added_at: "2026-04-09",
+    completed_at: "2026-04-10"
   },
   {
     category: "Tech",
