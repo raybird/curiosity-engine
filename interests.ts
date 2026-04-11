@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "TrajectoryDistiller Implementation: Building the logic to convert .jsonl cognitive logs to Skill.md",
+    topic: "Federated Skill Sync Protocol: Secure sharing of distilled skills across Ghost Grid nodes",
     priority: "High",
-    added_at: "2026-04-10"
+    added_at: "2026-04-11"
+  },
+  {
+    category: "Tech",
+    topic: "TrajectoryDistiller Implementation: Building the logic to convert .jsonl cognitive logs to Skill.md",
+    priority: "Completed",
+    added_at: "2026-04-10",
+    completed_at: "2026-04-11"
   },
   {
     category: "Infra",
