@@ -1,9 +1,22 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Federated Skill Sync Protocol: Secure sharing of distilled skills across Ghost Grid nodes",
+    topic: "A2A Economy Protocols: Reputation-weighted resource exchange between autonomous agents",
     priority: "High",
-    added_at: "2026-04-11"
+    added_at: "2026-04-13"
+  },
+  {
+    category: "Tech",
+    topic: "Causal Tokenization: Converting execution trajectories into verifiable credit assets",
+    priority: "High",
+    added_at: "2026-04-13"
+  },
+  {
+    category: "Tech",
+    topic: "Federated Skill Sync Protocol: Secure sharing of distilled skills across Ghost Grid nodes",
+    priority: "Completed",
+    added_at: "2026-04-11",
+    completed_at: "2026-04-13"
   },
   {
     category: "Tech",
