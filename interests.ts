@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "A2A Economy Protocols: Reputation-weighted resource exchange between autonomous agents",
+    topic: "Base-based Escrow Implementation: Integrating On-chain credit scores with TeleNexus Causal Layer",
     priority: "High",
-    added_at: "2026-04-13"
+    added_at: "2026-04-14"
+  },
+  {
+    category: "Tech",
+    topic: "A2A Economy Protocols: Reputation-weighted resource exchange between autonomous agents",
+    priority: "Completed",
+    added_at: "2026-04-13",
+    completed_at: "2026-04-14"
   },
   {
     category: "Tech",
