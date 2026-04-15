@@ -1,9 +1,16 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
-    topic: "Base-based Escrow Implementation: Integrating On-chain credit scores with TeleNexus Causal Layer",
+    topic: "EAS Evidence Package Implementation: Developing signed execution trace containers on Base L2",
     priority: "High",
-    added_at: "2026-04-14"
+    added_at: "2026-04-15"
+  },
+  {
+    category: "Tech",
+    topic: "Base-based Escrow Implementation: Integrating On-chain credit scores with TeleNexus Causal Layer",
+    priority: "Completed",
+    added_at: "2026-04-14",
+    completed_at: "2026-04-15"
   },
   {
     category: "Tech",
