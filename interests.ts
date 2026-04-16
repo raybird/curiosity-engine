@@ -2,8 +2,9 @@ export const INTEREST_TOPICS = [
   {
     category: "Tech",
     topic: "EAS Evidence Package Implementation: Developing signed execution trace containers on Base L2",
-    priority: "High",
-    added_at: "2026-04-15"
+    priority: "Completed",
+    added_at: "2026-04-15",
+    completed_at: "2026-04-16"
   },
   {
     category: "Tech",
