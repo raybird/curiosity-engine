@@ -23,8 +23,15 @@ export const INTEREST_TOPICS = [
   {
     category: "Tech",
     topic: "Causal Tokenization: Converting execution trajectories into verifiable credit assets",
+    priority: "Completed",
+    added_at: "2026-04-13",
+    completed_at: "2026-04-17"
+  },
+  {
+    category: "Tech",
+    topic: "TrajectoryAttestor Implementation: Prototyping on-chain attestation of task footprints via EAS",
     priority: "High",
-    added_at: "2026-04-13"
+    added_at: "2026-04-17"
   },
   {
     category: "Tech",
