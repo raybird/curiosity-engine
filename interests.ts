@@ -1,6 +1,13 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
+    topic: "TrajectoryAttestor Implementation: Prototyping on-chain attestation of task footprints via EAS",
+    priority: "Completed",
+    added_at: "2026-04-17",
+    completed_at: "2026-04-18"
+  },
+  {
+    category: "Tech",
     topic: "EAS Evidence Package Implementation: Developing signed execution trace containers on Base L2",
     priority: "Completed",
     added_at: "2026-04-15",
@@ -26,12 +33,6 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-04-13",
     completed_at: "2026-04-17"
-  },
-  {
-    category: "Tech",
-    topic: "TrajectoryAttestor Implementation: Prototyping on-chain attestation of task footprints via EAS",
-    priority: "High",
-    added_at: "2026-04-17"
   },
   {
     category: "Tech",
