@@ -1,6 +1,19 @@
 export const INTEREST_TOPICS = [
   {
     category: "Tech",
+    topic: "Agentic Self-Evolution: Designing recursive feedback loops for autonomous skill refinement",
+    priority: "Completed",
+    added_at: "2026-04-20",
+    completed_at: "2026-04-20"
+  },
+  {
+    category: "Infra",
+    topic: "Skill Verification Sandbox: Isolated environment for automated testing of synthesized skills",
+    priority: "High",
+    added_at: "2026-04-10"
+  },
+  {
+    category: "Tech",
     topic: "Semantic Causal Auditing: Leveraging EVM-Diff techniques for Autonomous Code Integrity Verification",
     priority: "Completed",
     added_at: "2026-04-19",
@@ -12,19 +25,6 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-04-17",
     completed_at: "2026-04-18"
-  },
-  {
-    category: "Tech",
-    topic: "EAS Evidence Package Implementation: Developing signed execution trace containers on Base L2",
-    priority: "Completed",
-    added_at: "2026-04-15",
-    completed_at: "2026-04-16"
-  },
-  {
-    category: "Infra",
-    topic: "Skill Verification Sandbox: Isolated environment for automated testing of synthesized skills",
-    priority: "Med",
-    added_at: "2026-04-10"
   },
   {
     category: "Tech",
