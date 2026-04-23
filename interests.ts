@@ -1,16 +1,23 @@
 export const INTEREST_TOPICS = [
   {
     category: "Dev",
+    topic: "WasmSkillHost Prototype: Implementing the first dynamic plugin loader using Extism JS SDK",
+    priority: "Completed",
+    added_at: "2026-04-22",
+    completed_at: "2026-04-23"
+  },
+  {
+    category: "Finance",
+    topic: "Causal Weighting Algorithms: Quantifying the impact of semantic tokens in different market regimes",
+    priority: "High",
+    added_at: "2026-04-23"
+  },
+  {
+    category: "Dev",
     topic: "Skill Transformation Engine: Automating the conversion of TS/Python logic into hot-swappable WASM modules",
     priority: "Completed",
     added_at: "2026-04-21",
     completed_at: "2026-04-22"
-  },
-  {
-    category: "Tech",
-    topic: "WasmSkillHost Prototype: Implementing the first dynamic plugin loader using Extism JS SDK",
-    priority: "High",
-    added_at: "2026-04-22"
   },
   {
     category: "Tech",
@@ -25,12 +32,5 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-04-10",
     completed_at: "2026-04-21"
-  },
-  {
-    category: "Tech",
-    topic: "Agentic Self-Evolution: Designing recursive feedback loops for autonomous skill refinement",
-    priority: "Completed",
-    added_at: "2026-04-20",
-    completed_at: "2026-04-20"
   }
 ];
