@@ -9,8 +9,9 @@ export const INTEREST_TOPICS = [
   {
     category: "Finance",
     topic: "CPCV_Engine_TS: Implementing the combinatorial backtest orchestrator in TypeScript",
-    priority: "High",
-    added_at: "2026-04-28"
+    priority: "Completed",
+    added_at: "2026-04-28",
+    completed_at: "2026-04-29"
   },
   {
     category: "AI",
@@ -25,5 +26,11 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-04-25",
     completed_at: "2026-04-26"
+  },
+  {
+    category: "Finance",
+    topic: "PBO_Analytics: Calculating Probability of Backtest Overfitting from CPCV paths",
+    priority: "High",
+    added_at: "2026-04-29"
   }
 ];
