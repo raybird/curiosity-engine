@@ -30,7 +30,14 @@ export const INTEREST_TOPICS = [
   {
     category: "Finance",
     topic: "PBO_Analytics: Calculating Probability of Backtest Overfitting from CPCV paths",
+    priority: "Completed",
+    added_at: "2026-04-29",
+    completed_at: "2026-04-30"
+  },
+  {
+    category: "Finance",
+    topic: "CSC_Implementation: Deflated Sharpe Ratio to correct for multiple testing bias",
     priority: "High",
-    added_at: "2026-04-29"
+    added_at: "2026-04-30"
   }
 ];
