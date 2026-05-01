@@ -37,7 +37,14 @@ export const INTEREST_TOPICS = [
   {
     category: "Finance",
     topic: "CSC_Implementation: Deflated Sharpe Ratio to correct for multiple testing bias",
+    priority: "Completed",
+    added_at: "2026-04-30",
+    completed_at: "2026-05-01"
+  },
+  {
+    category: "Finance",
+    topic: "Structural_Break_Detection: Identifying CUSUM and Chow-test triggers in non-stationary series",
     priority: "High",
-    added_at: "2026-04-30"
+    added_at: "2026-05-01"
   }
 ];
