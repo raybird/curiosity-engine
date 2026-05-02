@@ -44,7 +44,14 @@ export const INTEREST_TOPICS = [
   {
     category: "Finance",
     topic: "Structural_Break_Detection: Identifying CUSUM and Chow-test triggers in non-stationary series",
+    priority: "Completed",
+    added_at: "2026-05-01",
+    completed_at: "2026-05-02"
+  },
+  {
+    category: "Finance",
+    topic: "Entropy_Causality: Measuring directional info transfer between price and orderflow",
     priority: "High",
-    added_at: "2026-05-01"
+    added_at: "2026-05-02"
   }
 ];
