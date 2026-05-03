@@ -51,7 +51,14 @@ export const INTEREST_TOPICS = [
   {
     category: "Finance",
     topic: "Entropy_Causality: Measuring directional info transfer between price and orderflow",
+    priority: "Completed",
+    added_at: "2026-05-02",
+    completed_at: "2026-05-03"
+  },
+  {
+    category: "Finance",
+    topic: "Fractal_Entropy_Alignment: Detecting multi-scale self-similarity in info-transfer paths",
     priority: "High",
-    added_at: "2026-05-02"
+    added_at: "2026-05-03"
   }
 ];
