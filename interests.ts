@@ -58,7 +58,8 @@ export const INTEREST_TOPICS = [
   {
     category: "Finance",
     topic: "Fractal_Entropy_Alignment: Detecting multi-scale self-similarity in info-transfer paths",
-    priority: "High",
-    added_at: "2026-05-03"
+    priority: "Completed",
+    added_at: "2026-05-03",
+    completed_at: "2026-05-06"
   }
 ];
