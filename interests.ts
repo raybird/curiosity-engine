@@ -61,5 +61,12 @@ export const INTEREST_TOPICS = [
     priority: "Completed",
     added_at: "2026-05-03",
     completed_at: "2026-05-06"
+  },
+  {
+    category: "Finance",
+    topic: "Complexity_Gap_Audit: Measuring structural synchronization in multi-agent financial fields",
+    priority: "Completed",
+    added_at: "2026-05-08",
+    completed_at: "2026-05-08"
   }
 ];
